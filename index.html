@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gemini AI搭載＆多機能Discord Botの公式紹介ページ。AI会話、超高速翻訳、Flux画像生成、コインゲームを快適に。">
+  <title>Gemini Multi Bot - 次世代多機能Discord Bot</title>
+  <!-- Google Fonts Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-bg"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <span>🤖 Gemini Multi Bot</span>
+      </div>
+      <a href="https://discord.com/oauth2/authorize?client_id=1500823281517723699&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;">使ってみる</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">New Command `/role` Added</div>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
+      <img src="bot_avatar.png" alt="gemini_bot" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #818cf8; box-shadow: 0 0 20px rgba(129, 140, 248, 0.5);">
+      <div style="text-align: left;">
+        <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.2rem;">gemini_bot <span style="font-size: 0.9rem; background: #5865f2; color: #fff; padding: 0.2rem 0.5rem; border-radius: 4px; vertical-align: middle;">アプリ</span></h2>
+        <p style="font-family: monospace; color: var(--text-secondary); font-size: 0.9rem;">gemini_bot#1047</p>
+      </div>
+    </div>
+    <h1>あなたのサーバーを劇的に進化させる <span>Gemini AI Bot</span></h1>
+    <p>日常会話からクリエイティブな画像生成、瞬時の他言語翻訳、さらに楽しいミニゲームまで。これひとつで完璧に。</p>
+    <div style="margin-bottom: 1.5rem;">
+      <p style="font-size: 0.95rem; color: #a5b4fc; margin-bottom: 0.5rem;">⚠️ 導入後、管理者権限を持つユーザーがチャンネルで以下のコマンドを実行して初期化してください。</p>
+      <code style="background: rgba(0,0,0,0.4); padding: 0.4rem 0.8rem; border-radius: 4px; font-family: monospace; border: 1px solid var(--glass-border); font-size: 1rem; color: #f43f5e;">/setchannel</code>
+    </div>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      <a href="https://discord.com/oauth2/authorize?client_id=1500823281517723699&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">サーバーに追加する</a>
+      <a href="https://discord.gg/Tj7FFh5YBA" target="_blank" class="btn" style="background: #5865f2; box-shadow: 0 4px 20px rgba(88, 101, 242, 0.4);">サポートサーバー</a>
+      <a href="#demo" class="btn" style="background: var(--glass-bg); border: 1px solid var(--glass-border); box-shadow: none;">体験する</a>
+    </div>
+  </section>
+
+  <!-- Feature Grid -->
+  <section class="container" id="features">
+    <div class="section-title">
+      <h2>主要機能一覧</h2>
+      <p>Geminiの最新パワーをDiscordにシームレスに統合</p>
+    </div>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="card-icon">🧠</div>
+        <h3>AI会話（通常・Deep）</h3>
+        <p>「?mode=deep」や「/deep」で通常モデルから推論の深い高性能モデルへ瞬時に切り替え。詳細な思考を可能にします。（1時間自動オフ設定）</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="card-icon">🌐</div>
+        <h3>超高速翻訳</h3>
+        <p>独立したAPIキーによる「/translation」コマンドで、ブレのない自然でスマートな他言語翻訳を実現します。</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="card-icon">🎨</div>
+        <h3>Flux画像生成</h3>
+        <p>Pollinations.aiの高性能Fluxモデルと連携。チャット内に「?mode=image」を付けるだけで美麗なイラストを描き出します。</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="card-icon">🪙</div>
+        <h3>コイントスゲーム</h3>
+        <p>「/role (賭け金)」で遊べる本格的なコインロールゲーム。破産しても自動で復活するコイン機能付きです。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Terminal Section -->
+  <section class="demo-section" id="demo">
+    <div class="demo-wrapper">
+      <div class="section-title">
+        <h2>コマンド体験ターミナル</h2>
+        <p>Discord内でのBotの動きをウェブ上でリアルに再現</p>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-header">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+          <div class="terminal-title">discord-bot-simulation</div>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-line">
+            <span class="system-prefix">> Bot has initialized successfully. Welcome!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="interactive-panel">
+        <button class="cmd-btn" onclick="runCommand('chat')">こんにちは！</button>
+        <button class="cmd-btn" onclick="runCommand('deep')">?mode=deep 宇宙の始まりについて</button>
+        <button class="cmd-btn" onclick="runCommand('translation')">/translation text:Hello to:日本語</button>
+        <button class="cmd-btn" onclick="runCommand('image')">?mode=image a futuristic city</button>
+        <button class="cmd-btn" onclick="runCommand('role')">/role bet:50</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Gemini Multi Bot Project. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
